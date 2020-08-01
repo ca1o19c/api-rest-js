@@ -62,15 +62,15 @@
 - DELETE: Delete a Resource
 
 ## STATUS DAS RESPOSTAS
-- 1xx: Information
-- 2xx: Success
-  - 200: OK
-  - 201: CREATED
-  - 204: Has no PUT POST DELETE content
-- 3xx: Redirection
-- 4xx: client error
-  - 400: Incorrect request
-  - 404 not found!
-- 5xx: Server error 500: Internal server error
+- **1xx:**: Information
+- **2xx:** Success
+  - **200:** Ok
+  - **201:** Created
+  - **204:** Has no PUT POST DELETE content
+- **3xx:** Redirection
+- **4xx:** client error
+  - **400:** Incorrect request
+  - **404:** not found!
+- **5xx:** Server error 500: Internal server error
 
 #### **Notes based on the Rocketseat 🚀 video created by Mayk Brito. Thanks for the Content !!!!**
