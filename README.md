@@ -18,6 +18,22 @@
 ## How is data transferred?
 **Usually the HTTP protocol is used!!!**
 
+### Resources would then be: An entity or an object.
+
+## 6 NEEDS (restrictions) to be RESTful
+
+- Uniform Interface: Maintain uniformity, consistency, a pattern in the construction of the interface. Our API needs to be consistent for those who are going to consume. You need to make sense for the customer and not be confused. So, things like: the correct use of HTTP verbs; coherent endpoints (all plural endpoints, for example); use only one communication language (json) and not several at the same time; always send responses to customers; are examples of applying a uniform interface.
+
+- Client-server: Separation of the client and data storage (server), so we can have a portability of our system, using React for WEB and React Native for the smartphone, for example.
+
+- Stateless: Each request that the client makes to the server, must contain all the information necessary for the server to understand and respond (RESPONSE) to the request (REQUEST). Example: The user's session must be sent in all requests, to know if that user is authenticated and able to use the services, and the server cannot remember that the client was authenticated in the previous request. In our courses, we have by default to use tokens for communications.
+
+- Cacheable: The responses to a request must be made explicit when saying whether that request may or may not be cached by the customer.
+
+- Layered System: The client accesses an endpoint, without needing to know the complexity, what steps are needed for the server to answer the request, or what other layers the server will be dealing with, for the request to be answered.
+
+- Code on demand (optional): It allows our application to take codes, such as javascript, for example, and execute them on the client.
+
 ## Example
 ### Restaurant has to:
 - Be clean
@@ -28,6 +44,5 @@
 - Swear
 
 **Good habits!!!**
-
 
 #### **Notes based on the Rocketseat 🚀 video created by Mayk Brito. Thanks for the Content !!!!**
