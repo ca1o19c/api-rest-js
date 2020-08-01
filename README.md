@@ -13,6 +13,7 @@
 # REST
 
 ## Concept
+- 
 
 ## Example
 ### Restaurant has to:
@@ -25,3 +26,6 @@
 
 **Good habits!!!**
 
+## How is data transferred?
+**HTTP protocol allowed**
+ 
