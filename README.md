@@ -21,7 +21,6 @@
 ### Resources would then be: An entity or an object.
 
 ## 6 Restrictions to be RESTFUL
-
 - Uniform Interface: Maintain uniformity, consistency, a pattern in the construction of the interface. Our API needs to be consistent for those who are going to consume. You need to make sense for the customer and not be confused. So, things like: the correct use of HTTP verbs; coherent endpoints (all plural endpoints, for example); use only one communication language (JSON) and not several at the same time; always send responses to customers; are examples of applying a uniform interface.
 
 - Client-server: Separation of the client and data storage (server), so we can have a portability of our system, using React for WEB and React Native for the smartphone, for example.
@@ -44,5 +43,34 @@
 - Swear
 
 **Good habits!!!**
+
+# RESTFUL
+
+## Concept
+- RESTFUL, is the application of REST standards.
+
+## Good habits
+- Use HTTP verbs for our requests.
+- Use plural or singular when creating endpoints? DOES NOT MATTER! use a pattern !!
+- Do not leave a slash at the end of the endpoint
+- Never leave the customer unanswered!
+
+## Verbs HTTP
+- GET: Receive data from a Resource.
+- POST: Send data or information to be processed by a Resource.
+- PUT: Update data of a Resource.
+- DELETE: Delete a Resource
+
+## STATUS DAS RESPOSTAS
+- 1xx: Information
+- 2xx: Success
+  - 200: OK
+  - 201: CREATED
+  - 204: Has no PUT POST DELETE content
+- 3xx: Redirection
+- 4xx: client error
+  - 400: Incorrect request
+  - 404 not found!
+- 5xx: Server error 500: Internal server error
 
 #### **Notes based on the Rocketseat 🚀 video created by Mayk Brito. Thanks for the Content !!!!**
