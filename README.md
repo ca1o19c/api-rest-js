@@ -20,7 +20,7 @@
 
 ### Resources would then be: An entity or an object.
 
-## 6 NEEDS (restrictions) to be RESTful
+## 6 Restrictions to be RESTFUL
 
 - Uniform Interface: Maintain uniformity, consistency, a pattern in the construction of the interface. Our API needs to be consistent for those who are going to consume. You need to make sense for the customer and not be confused. So, things like: the correct use of HTTP verbs; coherent endpoints (all plural endpoints, for example); use only one communication language (json) and not several at the same time; always send responses to customers; are examples of applying a uniform interface.
 
