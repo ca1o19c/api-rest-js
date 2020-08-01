@@ -13,7 +13,10 @@
 # REST
 
 ## Concept
-- 
+- The acronym for REST is Representational State Transfer, it defines some obligations in data transfers and the transfer is made in a symbolic, figurative, representative and didactic way.
+
+## How is data transferred?
+**Usually the HTTP protocol is used!!!**
 
 ## Example
 ### Restaurant has to:
@@ -26,6 +29,5 @@
 
 **Good habits!!!**
 
-## How is data transferred?
-**Usually the HTTP protocol is used!!!**
+
  
