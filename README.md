@@ -27,5 +27,5 @@
 **Good habits!!!**
 
 ## How is data transferred?
-**HTTP protocol allowed**
+**Usually the HTTP protocol is used!!!**
  
