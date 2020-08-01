@@ -61,7 +61,7 @@
 - PUT: Update data of a Resource.
 - DELETE: Delete a Resource
 
-## STATUS DAS RESPOSTAS
+## Responses Status
 - **1xx:**: Information
 - **2xx:** Success
   - **200:** Ok
