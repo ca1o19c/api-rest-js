@@ -5,7 +5,11 @@
   "repository": "git@github.com:caiocichetti/learning-api-rest.git",
   "author": "Caio Cichetti <caio_cichetti@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
   }
 }
