@@ -2,10 +2,10 @@
 
 > Study Repository
 
-Hello, welcome.  
+Hello, welcome.
 :arrow_right: In this repository is recorded my progress in learning apis with Node and related technologies.
 
-## Concept 
+## Concept
 - The acronym for API is Application Programming Interface is basically a set of rules and standards established by an application, so that other applications can use the features of this app.
 
 - Intermediary for information exchange.
@@ -77,5 +77,3 @@ Hello, welcome.
   - **400:** Incorrect request
   - **404:** not found!
 - **5xx:** Server error 500: Internal server error
-
-#### **Notes based on the Rocketseat 🚀 video created by Mayk Brito. Thanks for the Content !!!!**
