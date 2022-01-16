@@ -1,0 +1,16 @@
+{
+  "name": "api-rest-js",
+  "version": "1.0.0",
+  "description": "Repository created for REST APIs learning purposes.",
+  "main": "index.js",
+  "repository": "git@github.com:ca1o19c/api-rest-js.git",
+  "author": "Caio Antonio <caio.antonio.c@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "pg-promise": "^10.11.1"
+  }
+}
