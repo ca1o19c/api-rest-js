@@ -1,12 +1,15 @@
 const express = require('express');
 const router = express.Router();
+const blogService = require('../service/blogService');
 
-const basePath = 'blog-api/v1'
+router.get('/posts', async function (req, res) {
+  const posts = await blogService.getPosts();
+  res.json(posts);
+});
 
-router.get(`${basePath}/posts`, async function (req, res) {});
-router.get(`${basePath}/posts:id`, async function (req, res) {});
-router.post(`${basePath}/posts`, async function (req, res) {});
-router.put(`${basePath}/posts:id`, async function (req, res) {});
-router.delete(`${basePath}/posts:id`, async function (req, res) {});
+router.get('/posts/:id', async function (req, res) {});
+router.post('/posts', async function (req, res) {});
+router.put('/posts/:id', async function (req, res) {});
+router.delete('/posts/:id', async function (req, res) {});
 
 module.exports = router;
