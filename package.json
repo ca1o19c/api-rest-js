@@ -5,7 +5,6 @@
   "main": "server.js",
   "repository": "git@github.com:ca1o19c/api-rest-js.git",
   "author": "Caio Antonio <caio.antonio.c@outlook.com>",
-  "license": "MIT",
   "scripts": {
     "test": "jest --env node",
     "start": "nodemon ./server/server.js"
