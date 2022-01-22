@@ -11,3 +11,11 @@ exports.save = function (post) {
 exports.delete = function (id) {
   return blogData.delete(id);
 }
+
+exports.update = function (id, post) {
+  return blogData.update(id, post);
+}
+
+exports.getUnique = function (id) {
+  return blogData.getUnique(id);
+};
