@@ -19,3 +19,7 @@ exports.update = function (id, post) {
 exports.getUnique = function (id) {
   return blogData.getUnique(id);
 };
+
+exports.deleteAll = function () {
+  return blogData.deleteAll();
+}
