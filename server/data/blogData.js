@@ -14,6 +14,10 @@ exports.delete = function (id) {
   return database.none('delete from blog.post where id = $1', [id]);
 }
 
+exports.deleteAll = function (id) {
+  return database.none('delete from blog.post');
+}
+
 exports.update = function (id, post) {
   return database.none('update blog.post set title = $1, content = $2 where id = $3',
    [post.title, post.content, id]);
